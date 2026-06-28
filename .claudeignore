@@ -1,0 +1,6 @@
+# .claudeignore 示例
+
+node_modules/    # 依赖包目录（太大，AI 不需要看）
+.next/           # NextJS 构建产物
+*.log            # 日志文件
+.env             # 环境变量（包含敏感信息）
